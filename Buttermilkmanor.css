@@ -6,44 +6,66 @@ BODY {
 }
 
 .homepage {
-	position: fixed;
+	position: absolute;
 	width: 100%;
-	height: 100%;
+	height: 200%;
 }
 
 .welcome {
 	display: block;
+	overflow: hidden;
 	position: relative;
 	width: 100%;
-	height: 12%;
-	background-color: #777777;
+	height: 50%;
+	background-image: url(homepage.jpg);
+	background-size: cover;
 	border-style: none none solid none;
-	border-width: 1%;
-	border-radius: 0 0 10px 10px;
+	border-width: 4px;
 }
 
-.welcome a {
-	font-size: 24px;
+.welcomebox {
+	overflow: hidden;
+	height: 48%;
+	width: 13%;
+	right: 1%;
+	top: 1%;
 	position: absolute;
-	left: 3.5%;
-	bottom: 50%;
+	display: block;
+	border-style: solid;
+}
+
+.welcome p {
+	font-size: 24px;
+	position: relative;
+	display: block;
+	margin-top: 2%;
+	top: 0%;
+	left: 0%;
+}
+
+#welcome1 {
+	text-align: center;
+	border-style: solid;
 }
 
 #welcome2 {
+	text-indent: 5%;
+	left: 2%;
+	position: relative;
+	display: block;
 	font-size: 18px;
-	bottom: 18%;
-	left: 15%;
+	border-style: solid;
 }
 
 .sitelinks {
 	display: inline-block;
-	position: fixed;
+	position: absolute;
 	text-align: center;
 	width: 98%;
-	height: 86%;
+	height: 48%;
 	background-color: #d3d3d3;
 	margin-left: 1%;
-	margin-top: 1%;
+	margin-top: 2%;
 }
 
 .classes, .codelanguages, .buttergame, .box1, .box2, .box3, .box4, .box5, .box6, .box7 {
@@ -63,41 +85,27 @@ BODY {
 }
 
 .header { 
-	position: fixed;
+	position: absolute;
 	border-style: none none solid none;
-	height: 6%;
-	width: 15.75%;
+	height: 12%;
+	width: 100%;
 	z-index: 1;
 }
 
 .header p {
 	position: relative;
-	margin-top: 4%;
+	margin-top: 7%;
 }
 
 .linkbox {
 	position: absolute;
 	display: block;
 	overflow: auto;
-	top: 15.75%;
-	height: 84.25%;
+	top: 12.75%;
+	height: 88%;
 	width: 100%;
 	z-index: 2;
 }
-
-/*.classes p, .codelanguages p, .buttergame p {
-	text-decoration: none;
-	font-size: 22px;
-	margin-top: 0;
-	margin-bottom: 8%;
-	display: block;
-	width: 100%;
-	height: 6%;
-	border-style: none none solid none;
-	border-radius: 5px;
-	border-width: 1%;
-	background-color: #B1C2D6;
-}*/
 
 .classes a, .codelanguages a, .buttergame a {
 	position: relative;
@@ -118,25 +126,22 @@ BODY {
 .linkbox p {
 	display: inline;
 	position: relative;
-	bottom: 20%;
 }
 
-/*need to add all links to p {}*/
-
-.about {
+.about a {
 	position: fixed;
 	overflow: hidden;
 	width: 40px;
 	height: 40px;
-	background-color: #d3d3d3;
+	background-image: url(buttericon.png);
+	background-size: contain;
 	border-radius: 50%;
 	text-align: center;
 	bottom: 2.25%;
 	right: 1.5%;
-}
-
-.about a {
-	display: inline-block;
-	margin-top: 20%;
+	
+	
+	/*display: inline-block;
+	margin-top: 20%;*/
 }
 	
