@@ -1,0 +1,142 @@
+BODY {
+	margin: 0;
+	border: 0;
+	padding: 0;
+	background-color: #d3d3d3;
+}
+
+.homepage {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+}
+
+.welcome {
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 12%;
+	background-color: #777777;
+	border-style: none none solid none;
+	border-width: 1%;
+	border-radius: 0 0 10px 10px;
+}
+
+.welcome a {
+	font-size: 24px;
+	position: absolute;
+	left: 3.5%;
+	bottom: 50%;
+}
+
+#welcome2 {
+	font-size: 18px;
+	bottom: 18%;
+	left: 15%;
+}
+
+.sitelinks {
+	display: inline-block;
+	position: fixed;
+	text-align: center;
+	width: 98%;
+	height: 86%;
+	background-color: #d3d3d3;
+	margin-left: 1%;
+	margin-top: 1%;
+}
+
+.classes, .codelanguages, .buttergame, .box1, .box2, .box3, .box4, .box5, .box6, .box7 {
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+	width: 16%;
+	height: 46%;
+	margin-bottom: 1%;
+	margin-right: 0.5%;
+	margin-left: 0.5%;
+	padding: 0;
+	border-style: solid;
+	border-radius: 10px;
+	font-size: 12px;
+	background-color: #E1E5F1;
+}
+
+.header { 
+	position: fixed;
+	border-style: none none solid none;
+	height: 6%;
+	width: 15.75%;
+	z-index: 1;
+}
+
+.header p {
+	position: relative;
+	margin-top: 4%;
+}
+
+.linkbox {
+	position: absolute;
+	display: block;
+	overflow: auto;
+	top: 15.75%;
+	height: 84.25%;
+	width: 100%;
+	z-index: 2;
+}
+
+/*.classes p, .codelanguages p, .buttergame p {
+	text-decoration: none;
+	font-size: 22px;
+	margin-top: 0;
+	margin-bottom: 8%;
+	display: block;
+	width: 100%;
+	height: 6%;
+	border-style: none none solid none;
+	border-radius: 5px;
+	border-width: 1%;
+	background-color: #B1C2D6;
+}*/
+
+.classes a, .codelanguages a, .buttergame a {
+	position: relative;
+	display: block;
+	margin-left: 15%;
+	margin-top: 1.5%;
+	top: 3%;
+	text-decoration: none;
+	font-size: 18px;
+	display: block;
+	width: 70%;
+	height: 7.5%;
+	border-style: solid;
+	border-radius: 10px;
+	padding-top: 2%;
+}
+
+.linkbox p {
+	display: inline;
+	position: relative;
+	bottom: 20%;
+}
+
+/*need to add all links to p {}*/
+
+.about {
+	position: fixed;
+	overflow: hidden;
+	width: 40px;
+	height: 40px;
+	background-color: #d3d3d3;
+	border-radius: 50%;
+	text-align: center;
+	bottom: 2.25%;
+	right: 1.5%;
+}
+
+.about a {
+	display: inline-block;
+	margin-top: 20%;
+}
+	
