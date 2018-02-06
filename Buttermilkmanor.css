@@ -19,33 +19,37 @@ BODY {
 	height: 50%;
 	background-image: url(homepage.jpg);
 	background-size: cover;
-	border-style: none none solid none;
-	border-width: 4px;
 }
 
 .welcomebox {
 	overflow: hidden;
 	height: 48%;
 	width: 13%;
+	min-width: 225px;
 	right: 1%;
 	top: 1%;
 	position: absolute;
 	display: block;
 	border-style: solid;
+	border-radius: 4%;
+	background-color: #777777;
 }
 
 .welcome p {
-	font-size: 24px;
-	position: relative;
+	font-size: 22px;
+	position: absolute;
 	display: block;
 	margin-top: 2%;
 	top: 0%;
 	left: 0%;
+	margin: 0;
+	padding: 0;
+	width: 98%;
 }
 
 #welcome1 {
+	position: relative;
 	text-align: center;
-	border-style: solid;
 }
 
 #welcome2 {
@@ -54,7 +58,69 @@ BODY {
 	position: relative;
 	display: block;
 	font-size: 18px;
+}
+
+.quicklinkhead {
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 15%;
+	margin-left: 0%;
+}
+
+.quicklinks {
+	position: absolute;
+	display: block;
+	overflow: hidden;
+	bottom: 0%;
+	height: 70%;
+	width: 100%;
+	z-index: 2;
+}
+
+
+.quicklinkbox {
+	overflow: auto;
+	height: 85%;
+	width: 100%;
+}
+
+.quicklinks a {
+	position: relative;
+	display: block;
 	border-style: solid;
+	border-color: black;
+	color: black;
+	border-radius: 5px;
+	width: 80%;
+	height: 20%;
+	margin-left: 10%;
+	margin-bottom: 1.5%;
+	text-align: center;
+	text-decoration: none;
+}
+
+.homepagedivider {
+	position: relative;
+	width: 100%;
+	height: 10%;
+	border-style: solid none solid none;
+	border-width: 6px;
+}
+
+.dividerdesign {
+	position: relative;
+	display: block;
+	border-style: solid;
+	height: 50%;
+	width: 80%;
+}
+
+.divdesign {
+	position: relative;
+	border-style: solid;
+	height: 100%;
+	width: 60%;
 }
 
 .sitelinks {
@@ -74,6 +140,7 @@ BODY {
 	overflow: hidden;
 	width: 16%;
 	height: 46%;
+	min-width: 225px;
 	margin-bottom: 1%;
 	margin-right: 0.5%;
 	margin-left: 0.5%;
@@ -107,6 +174,11 @@ BODY {
 	z-index: 2;
 }
 
+.linkbox p {
+	display: inline;
+	position: relative;
+}
+
 .classes a, .codelanguages a, .buttergame a {
 	position: relative;
 	display: block;
@@ -114,6 +186,8 @@ BODY {
 	margin-top: 1.5%;
 	top: 3%;
 	text-decoration: none;
+	border-color: black;
+	color: black;
 	font-size: 18px;
 	display: block;
 	width: 70%;
@@ -121,11 +195,6 @@ BODY {
 	border-style: solid;
 	border-radius: 10px;
 	padding-top: 2%;
-}
-
-.linkbox p {
-	display: inline;
-	position: relative;
 }
 
 .about a {
